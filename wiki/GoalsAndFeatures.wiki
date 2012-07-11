@@ -1,5 +1,3 @@
-#Goals and Features.
-
 = Goals and Features =
 
 Add your content here.
