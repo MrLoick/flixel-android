@@ -1,0 +1,43 @@
+= Project setup =
+
+In this tutorial Eclipse IDE is use. We assume you already know how to use Eclipse and AVD Manager. Because flixel-android uses libgdx the project setup looks the same. The only different is that a flixel project is required. If you prefer, you can use libgdx’s tutorial over here: [http://code.google.com/p/libgdx/wiki/ProjectSetupNew Libgdx's Project Setup]
+
+==Importing flixel-examples==
+  # When you’re done installing both then you can import flixel-android.
+File -> Import…
+  # General -> Existing Projects into Workspace.
+  # Select all folders.
+
+==Creating a new flixel project==
+There is an easy way to quickly setup a project without having to manually add external jars to your projects. Use [http://www.aurelienribon.com/blog/category/desktop-applications/libgdx-project-setup/ “LibGDX Project Setup”]
+
+==Project layout==
+In this project layout we called the project “my-flixel-game”.
+
+  * Framework project (“flixel”): contains the classes of flixel.
+  * Core project (“my-flixel-game”): your game logic goes here. Links to framework project.
+  * Android project (“my-flixel-game-android”): it contains files to make your application runnable on Android. The assets/ folder stores the assets of your application for all platforms. Links to the framework project and core projects.
+  * Desktop project (“my-flixel-game-desktop”): it contains files to make your application runnable on desktop. Links to Android’s assets/ folder, framework and core projects.
+
+There are still some external jars that are required for some classes in flixel:
+  * For the Android project add the gdx-freetype.jar (can be found in the libgdx project and flixel-examples-android project).
+
+*Important*: in your Android project, check the flixel project in the Order and Export.
+For more information: [http://www.badlogicgames.com/wordpress/?p=2362 Android Development Tools R17 break your Libgdx Project?]
+
+==Running your application==
+  * Desktop: right click on the desktop project, Run As -> Java Application -> select the desktop starter class.
+  * Android: right click on the Android project, Run As -> Android Application. You must already have an Android Virtual Device created or hook a real Android device on your system.
+
+==Debugging your application==
+  * Desktop: Debug As -> Java Application -> select the desktop starter class.
+  * Android: right click on the Android project, Run As -> Android Application. Android ships with a debugging tool called DDMS. You can view the memory usage, capture screens and so on. For more information about this tool here: [http://developer.android.com/tools/debugging/ddms.html Using DDMS]
+
+==Update libgdx==
+To update the latest libgdx releases you need to update these files in your projects:
+
+
+|| *Project* || *Files* ||
+|| Core (your project)<br> or flixel project || libs/android.jar<br>libs/gdx.jar<br>libs/gdx-sources.jar<br>libs/gdx-freetype.jar<br>libs/gdx-freetype-natives.jar<br> ||
+|| Android || libs/gdx-backend-android.jar<br>libs/gdx-armeabi (directory)<br>libs/gdx-armeabi-v7a (directory)<br> ||
+|| Desktop || libs/gdx-native.jar<br>libs/gdx-backend-lwjgl.jar<br>libs/gdx-backend-lwjgl-natives.jar<br>||
