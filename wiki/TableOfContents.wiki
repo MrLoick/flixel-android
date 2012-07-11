@@ -1,5 +1,4 @@
-
-Table of contents
+=Table of contents=
   * [http://code.google.com/p/flixel-android/wiki/GoalsAndFeatures Goals and Features]
   * 
   * 
