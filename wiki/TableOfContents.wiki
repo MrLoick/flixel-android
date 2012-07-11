@@ -1,17 +1,17 @@
 =Table of contents=
-==Developer's Guide==
- * Introduction
- * [http://code.google.com/p/flixel-android/wiki/GoalsAndFeatures Goals and Features]
- * Games build with flixel-android
- * Prerequisites
-==Tutorials==
- * [http://code.google.com/p/flixel-android/wiki/TextDisplay Text display]
- * Animation
- * Collision
- * Emitter
- * Audio
- * Object pooling
- * Camera
- * Scrolling
- * Save games
- * Debug
+ * Developer's Guide
+   * Introduction
+   * [http://code.google.com/p/flixel-android/wiki/GoalsAndFeatures Goals and Features]
+   * Games build with flixel-android
+   * Prerequisites
+ * Tutorials
+   * [http://code.google.com/p/flixel-android/wiki/TextDisplay Text display]
+   * Animation
+   * Collision
+   * Emitter
+   * Audio
+   * Object pooling
+   * Camera
+   * Scrolling
+   * Save games
+   * Debug
