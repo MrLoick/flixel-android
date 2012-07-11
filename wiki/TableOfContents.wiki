@@ -4,6 +4,7 @@
    * [http://code.google.com/p/flixel-android/wiki/GoalsAndFeatures Goals and Features]
    * Games build with flixel-android
    * Prerequisites
+   * [http://code.google.com/p/flixel-android/wiki/ProjectSetup Project setup]
  * Tutorials
    * [http://code.google.com/p/flixel-android/wiki/TextDisplay Text display]
    * Animation
