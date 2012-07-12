@@ -2,6 +2,7 @@
  * Developer's Guide
    * Introduction
    * [http://code.google.com/p/flixel-android/wiki/GoalsAndFeatures Goals and Features]
+   * [http://code.google.com/p/flixel-android/wiki/Architecture Architecture]
    * Games build with flixel-android
    * Prerequisites
    * [http://code.google.com/p/flixel-android/wiki/ProjectSetup Project setup]
