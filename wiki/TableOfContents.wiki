@@ -8,8 +8,9 @@
    * [http://code.google.com/p/flixel-android/wiki/ProjectSetup Project setup]
  * Tutorials
    * [http://code.google.com/p/flixel-android/wiki/TextDisplay Text display]
-   * Animation
-   * Collision
+   * [http://code.google.com/p/flixel-android/wiki/Graphic Graphic]
+   * [http://code.google.com/p/flixel-android/wiki/Animation Animation]
+   * [http://code.google.com/p/flixel-android/wiki/Collision Collision]
    * Emitter
    * Audio
    * Object pooling
