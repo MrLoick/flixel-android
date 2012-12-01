@@ -27,7 +27,7 @@ flixel-android now comes with a gui utility to help simplify the setup process. 
 
 =From SVN=
 
-If you want to ensure that you are using the very latest version of flixel-android, you will need to checkout the most recent revision from the SVN.
+If you want to ensure that you are using the very latest version of flixel-android, you will need to checkout the most recent revision from the SVN and set up your project manually.
 
   # Use your preferred SVN client to checkout the repository at: http://flixel-android.googlecode.com/svn/trunk/
     * If you do not have a preferred client, a free one is available from: http://tortoisesvn.net/downloads.html
@@ -103,11 +103,11 @@ public class Main
 }
 }}}
 
- 2. To run the game on the desktop, right click the project -> Debug As -> Java Application. You should get a black window.
+2. To run the game on the desktop, right click the project -> Debug As -> Java Application. You should get a black window.
 
 ==Running the Game on Android==
 
-  1. Open the AndroidGame class in the Android project that was automatically created and make it look like this:
+  1. Open the `AndroidGame` class in the Android project that was automatically created and make it look like this:
 
 {{{
 package com.yourname.flixelgame;
@@ -123,6 +123,4 @@ public class AndroidGame extends FlxAndroidApplication
 }
 }}}
 
-This code is an Android activity that passes in an instance of your game.
-
-  2. To run the game on Android, right click the project -> Debug As -> Android Application. The screen will turn black, since the game doesn't yet do anything. If any errors occur running the application, they show up in the Logcat view, which can be seen by clicking Window -> Show View -> Other -> Android -> Logcat.
+2. To run the game on Android, right click the project -> Debug As -> Android Application. The screen will turn black, since the game doesn't yet do anything. If any errors occur running the application, they show up in the Logcat view, which can be seen by clicking Window -> Show View -> Other -> Android -> Logcat.
